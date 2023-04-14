@@ -1,0 +1,34 @@
+{
+  "_fv": 39,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "impuregoldtools_shovel",
+    "customModelName": "Normal",
+    "name": "Impure Gold Shovel",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Saig"
+    },
+    "toolType": "Spade",
+    "harvestLevel": 0,
+    "efficiency": 15.0,
+    "attackSpeed": 1.5,
+    "enchantability": 25,
+    "damageVsEntity": 4.0,
+    "usageCount": 1000,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:Impuregoldingot"
+      },
+      {
+        "value": "Items.GOLD_INGOT"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:golden_chestplate"
+  },
+  "addition": {
+    "item": "saig:impuregoldingot"
+  },
+  "result": {
+    "item": "saig:impure_gold_chestplate"
+  }
+}

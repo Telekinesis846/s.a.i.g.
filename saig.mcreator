@@ -1,0 +1,436 @@
+{
+  "mod_elements": [
+    {
+      "name": "SteelIngot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/steel_ingot.json",
+          "src/main/java/net/mcreator/saig/item/SteelIngotItem.java"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "Steelore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/forge/biome_modifier/steelore_biome_modifier.json",
+          "src/main/resources/assets/saig/models/block/steelore.json",
+          "src/main/java/net/mcreator/saig/block/SteeloreBlock.java",
+          "src/main/resources/assets/saig/blockstates/steelore.json",
+          "src/main/java/net/mcreator/saig/world/features/ores/SteeloreFeature.java",
+          "src/main/resources/assets/saig/models/item/steelore.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "Steelingotrecipe",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steelingotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/steelingotrecipe.json"
+        ]
+      },
+      "path": "~/Steel"
+    },
+    {
+      "name": "Saig",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "saig",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Impuregoldingot",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impuregoldingot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saig/item/ImpuregoldingotItem.java",
+          "src/main/resources/assets/saig/models/item/impuregoldingot.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "Impuregoldingotrecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impuregoldingotrecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impuregoldingotrecipe.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "Impuregoldrod",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impuregoldrod",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/impuregoldrod.json",
+          "src/main/java/net/mcreator/saig/item/ImpuregoldrodItem.java"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "Masterssword",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masterssword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/masterssword.json",
+          "src/main/java/net/mcreator/saig/item/MastersswordItem.java"
+        ]
+      },
+      "path": "~/Masterssword"
+    },
+    {
+      "name": "MastersswordLivingEntityIsHitWithTool",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masterssword_living_entity_is_hit_with_tool",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saig/procedures/MastersswordLivingEntityIsHitWithToolProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Masterssword"
+    },
+    {
+      "name": "ImpureGold",
+      "type": "armor",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/impure_gold_leggings.json",
+          "src/main/resources/assets/saig/models/item/impure_gold_boots.json",
+          "src/main/resources/assets/saig/models/item/impure_gold_chestplate.json",
+          "src/main/resources/assets/saig/models/item/impure_gold_helmet.json",
+          "src/main/java/net/mcreator/saig/item/ImpureGoldItem.java"
+        ]
+      },
+      "path": "~/Impure Gold/Armor"
+    },
+    {
+      "name": "ImpureGoldPickaxe",
+      "type": "tool",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/saig/item/ImpureGoldPickaxeItem.java",
+          "src/main/resources/assets/saig/models/item/impure_gold_pickaxe.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold/Armor"
+    },
+    {
+      "name": "ImpureGoldChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold/Armor"
+    },
+    {
+      "name": "ImpureGoldLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold/Armor"
+    },
+    {
+      "name": "ImpureGoldBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_boots_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold/Armor"
+    },
+    {
+      "name": "ImpureGoldPickRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_pick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_pick_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldSword",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/impure_gold_sword.json",
+          "src/main/java/net/mcreator/saig/item/ImpureGoldSwordItem.java"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldSwordRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_sword_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldAxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/impure_gold_axe.json",
+          "src/main/java/net/mcreator/saig/item/ImpureGoldAxeItem.java"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldAxeRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_axe_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldShovel",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/impure_gold_shovel.json",
+          "src/main/java/net/mcreator/saig/item/ImpureGoldShovelItem.java"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldShovelRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldHoe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/saig/models/item/impure_gold_hoe.json",
+          "src/main/java/net/mcreator/saig/item/ImpureGoldHoeItem.java"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "ImpureGoldHoeRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impure_gold_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/impure_gold_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Impure Gold"
+    },
+    {
+      "name": "MastersSwordRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "masters_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/saig/recipes/masters_sword_recipe.json"
+        ]
+      },
+      "path": "~/Masterssword"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.saig.impure_gold_pickaxe": "Impure Gold Pickaxe",
+      "item.saig.impure_gold_shovel": "Impure Gold Shovel",
+      "item.saig.impure_gold_chestplate": "Impure Gold Body",
+      "item.saig.masterssword": "Master\u0027s Sword",
+      "item.saig.impuregoldrod": "Impure Gold Rod",
+      "item.saig.impure_gold_helmet": "Impure Gold Helmet",
+      "item.saig.steel_ingot": "Steel Ingot",
+      "item.saig.impure_gold_boots": "Impure Gold Boots",
+      "item.saig.impure_gold_hoe": "Impure Gold Hoe",
+      "item.saig.impuregoldingot": "Impure Gold Ingot",
+      "item.saig.impure_gold_sword": "Impure Gold Sword",
+      "block.saig.steelore": "Steel Ore",
+      "itemGroup.tabsaig": "S.A.I.G",
+      "item.saig.impure_gold_leggings": "Impure Gold Leggings",
+      "item.saig.impure_gold_axe": "Impure Gold Axe"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Steel",
+        "children": []
+      },
+      {
+        "name": "Impure Gold",
+        "children": [
+          {
+            "name": "Armor",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Masterssword",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "saig",
+    "modName": "Steel And Impure Gold",
+    "version": "1.0.0",
+    "description": "Adds steel and impure gold",
+    "author": "TK846",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.saig",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}

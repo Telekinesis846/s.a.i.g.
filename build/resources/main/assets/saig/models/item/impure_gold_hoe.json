@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "saig:items/impuregoldtools_hoe"
+  }
+}
